@@ -1,0 +1,39 @@
+﻿<Window x:Class="Optoelectronics.FiberOpticCables"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Optoelectronics"
+        mc:Ignorable="d"
+        Title="FiberOpticCables" Height="323.907" Width="1024.837" MaxWidth="1024" MaxHeight="323">
+    <Grid Margin="0,0,3,2">
+        <RichTextBox HorizontalAlignment="Left" Height="284" Margin="3,5,0,0" VerticalAlignment="Top" Width="1005" TextChanged="RichTextBox_TextChanged">
+            <FlowDocument>
+                <Paragraph>
+                    <Run FontWeight="Bold" Text="Waveguide : "/>
+                    <Run Text="A dielectric optical waveguide consists of a longitudinally extended high index optical medium called the core, which is surrounded by a low index media called the cladding. A guided optical wave propagates in the waveguide. "/>
+                    <Run FontWeight="Bold" Text=" "/>
+                    <Run Text="The refractive index of the core is always greater than that of the cladding. Light propagates in the core and the fiber acts as an optical waveguide. The higher the refractive index of the medium the lower the speed of light passing through it since it is a denser medium."/>
+                </Paragraph>
+                <Paragraph>
+                    <Run FontWeight="Bold" Text="Optical Fiber"/>
+                    <Run Text=": Is a cylindrical dielectric waveguide where  a high index wave guiding core is surrounded by a low index cladding. Optical fibers are usually made of silica (SiO2) glass.   The core can be doped with  Germania or alumina for a slightly higher index than that of silica cladding.  The index step is controlled by the concentration and distribution of dopants. Silica fibers due to their low loss and dispersion are utilized for light transmission in the visible and near infrared regions.  Hence they are widely used for optical communications and most laser applications in the range of the spectrum.  Optical fibers have a wide range of applications, owing to their low losses and large bandwidths the most important applications are fiber optic communications and interconnections. Other important applications include fiber sensors, guided optical imaging, remote monitoring and medical applications. "/>
+                    <Run FontWeight="Bold" Text="Attenuation "/>
+                    <Run Text="of light in a fiber is caused by absorption and scattering.  The total loss of the fiber includes mechanical and nonlinear optical effects.  Loss mechanisms include electronic absorption, molecular absorption, impurity absorption, Rayleigh scattering, waveguide scattering and nonlinear losses. "/>
+                    <Run FontWeight="Bold" Text="Modal Dispersion : "/>
+                    <Run Text="is caused by the variation in propagation constant against different modes, it is also called inter mode dispersion. It appears only when more than one mode is active in a multimode fiber channel. If only one mode is active in a multimode fiber only intra mode chromatic dispersion needs to be considered. "/>
+                    <Run FontWeight="Bold" Text="Chromatic dispersion "/>
+                    <Run Text="consist of waveguide dispersion and material dispersion which are both frequency dependent. "/>
+                    <Run FontWeight="Bold" Text="Waveguide dispersion: "/>
+                    <Run Text="The propagation constant of a guided mode of a fiber is determined by parameters of the fiber such as its index profile and core size and the material properties.  "/>
+                    <Run FontWeight="Bold" Text="Optical couplers "/>
+                    <Run Text="are passive devices that couple light through waveguides or fibers.    "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run FontStyle="Italic" Text="Reference: Introduction to Fiber Optics by John Crisp and Barry J. Elliott"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+
+    </Grid>
+</Window>

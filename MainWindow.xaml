@@ -1,0 +1,49 @@
+﻿<Window x:Name="OptoelectronicsTransducers" x:Class="Optoelectronics.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Optoelectronics"
+        mc:Ignorable="d"
+        Title="Optoelectronics" Height="461.222" Width="824.688">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="102*"/>
+            <RowDefinition Height="59.523"/>
+            <RowDefinition Height="269*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="236*"/>
+            <ColumnDefinition Width="57*"/>
+            <ColumnDefinition Width="499*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Reference: Photonic Devices  - Jia Ming Liu" HorizontalAlignment="Left" Margin="266,245,0,-2" VerticalAlignment="Top" RenderTransformOrigin="-1.422,0.499" Width="241" Grid.Row="2" Grid.Column="2"/>
+        <Button x:Name="SemiOpto" Content="Semiconductor Optoelectronics" HorizontalAlignment="Left" Margin="199,33.645,0,0" VerticalAlignment="Top" Width="202" Click="SemiOpto_Click" Height="26" Grid.Column="2" Grid.RowSpan="2" Grid.Row="1"/>
+        <Image Margin="72,-2,2,30" Source="Image2.png" Stretch="Fill" Grid.Column="2" Grid.RowSpan="2"/>
+        <Image Margin="79,10,3,141" Source="Image3.png" Stretch="Fill" Grid.Column="2" Grid.Row="2"/>
+        <Button x:Name="Fiber_Optic" Content="FiberOpticCables" Grid.Column="2" HorizontalAlignment="Left" Margin="177,229,0,0" Grid.Row="2" VerticalAlignment="Top" Width="201" Click="Fiber_Optic_Click"/>
+        <Label Content="Fibre" Grid.Column="2" HorizontalAlignment="Left" Margin="285,24,0,0" Grid.Row="2" VerticalAlignment="Top"/>
+        <Image Margin="127,117,3,46" Source="Image4.png" Stretch="Fill" Grid.Column="2" Grid.Row="2"/>
+        <Image Grid.ColumnSpan="3" Margin="6,137,370,4" Source="Image5.png" Stretch="Fill" Grid.Row="2"/>
+        <RichTextBox HorizontalAlignment="Left" Height="246" Grid.RowSpan="3" VerticalAlignment="Top" Width="364" Grid.ColumnSpan="3" TextChanged="RichTextBox_TextChanged_2">
+            <FlowDocument>
+                <Paragraph>
+                    <Run FontWeight="Bold" Text="Laser"/>
+                    <Run Text=": Light amplification by stimulated emission of radiation. A laser oscillator generates laser light without an input light wave.  A laser amplifier amplifies the laser beam. . Laser light has a narrow spectral line width and high intensity compared to other light sources "/>
+                    <Run FontWeight="Bold" Text="Optical transitions:  "/>
+                    <Run Text="Optical absorption and emission occur through the interaction of optical radiation.   "/>
+                    <Run FontStyle="Italic" Text="Absorption "/>
+                    <Run Text="leads to the attenuation of an optical signal. Photons emitted by "/>
+                    <Run FontStyle="Italic" Text="stimulated emission "/>
+                    <Run Text="have the same frequency, phase, polarization and propagation direction as the optical radiation that induces the process. "/>
+                    <Run FontStyle="Italic" Text="Spontaneously emitted photons"/>
+                    <Run Text=" are random in phase and polarization and are emitted in all directions, hence stimulated emission results in the amplification of an optical signal whereas spontaneous emission adds noise to the optical signal.  "/>
+                    <Run FontWeight="Bold" Text="Fiber laser"/>
+                    <Run Text=": can be created by integrating an optical feedback to the fiber amplifier."/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Button x:Name="Optical" Content="Optical Waveguides" HorizontalAlignment="Left" Margin="19,98,0,0" Grid.Row="2" VerticalAlignment="Top" Width="112" Height="24" Click="Optical_Click"/>
+
+    </Grid>
+</Window>

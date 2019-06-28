@@ -1,0 +1,87 @@
+﻿<Window x:Class="Optoelectronics.SemiConductorOptoelectronics"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Optoelectronics"
+        mc:Ignorable="d"
+        Title="SemiConductorOptoelectronics" Height="866" Width="1100" MaxWidth="1091" MaxHeight="896">
+    <Grid Margin="0,0,43,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="158*"/>
+            <ColumnDefinition Width="329*"/>
+        </Grid.ColumnDefinitions>
+        <RichTextBox HorizontalAlignment="Left" Height="760" Margin="1,9,-21,0" VerticalAlignment="Top" Width="1060" Grid.ColumnSpan="2" TextChanged="RichTextBox_TextChanged" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+            <FlowDocument>
+                <Paragraph>
+                    <Run FontWeight="Bold" Text="Photo detector:"/>
+                    <Run Text=" A "/>
+                    <Run FontWeight="Bold" Text="photo detector "/>
+                    <Run Text="is a device that converts an optical signal into another form , an electrical signal either current or voltage for the most part.  All photo detectors respond to power and intensity of the optical signal.  The response is a function of optical wavelength with a cutoff at long wavelengths.   They can be designed to have a high response speed capable of following fast optical signals and for this reason photon detectors are suitable for detecting optical signals in photonic systems. They are classified into two groups:  external photoelectric effect and the internal photoelectric effect. Photo detectors based on an external photoelectric effect are photo emissive devices and photo detectors based on an  internal photoelectric effect are semiconductor devices, in which electron hole pairs are generated through the absorption of incident photons.   Categories of semiconductor device include photoconductors, junction photodiodes, photovoltaic devices, photo transistors and charge coupled devices.   Concepts are similar, photo detector noise consists of quantum noise, shot noise and thermal noise.   Several parameters are commonly used to define the performance characteristics of  photo detectors these parameters include spectral response and quantum efficiency.  "/>
+                    <Run FontWeight="Bold" Text="Spectral Response "/>
+                    <Run Text="is determined by the material, structure and the packaging of the detector since the response of a photon detector is wavelength dependent a given photo detector is responsive only within a finite and specific range of the optical spectrum. "/>
+                    <Run FontWeight="Bold" Text="Quantum efficiency: "/>
+                    <Run Text="Is the probability of generating a charge carrier in a photo detector for each photon that is incident on the detector. "/>
+                    <Run FontWeight="Bold" Text="Responsivity: "/>
+                    <Run Text="It is an important parameter for a photo detector, it allows one to determine the available output signal of a detector for a given input optical signal. It's units are A/W and defined as the ratio of the output current to the power of the input optical signal or V/W output voltage  to power of the input signal. "/>
+                    <Run FontWeight="Bold" Text="Detectivity or Sensitivity"/>
+                    <Run Text=" : Is the ability of a photodetector to detect a small optical signal, it is defined as the inverse of the NEP of the detector where noise equivalent power (NEP) is defined as the input power required of the optical signal for the signal to noise ratio to be unity, SNR =1 at the detector output for a 1hz output bandwidth (W/sqr(Hz)).  "/>
+                    <Run FontWeight="Bold" Text="Frequency Response:  "/>
+                    <Run Text="For a photodetector, Freq (3db) = 0.886B = 0.443/T, where the risetime of the photodetector's response to an impulse signal is  tr = 0.35/ f(3db)."/>
+                </Paragraph>
+                <Paragraph>
+                    <Run FontWeight="Bold" Text="Photoemissive detectors: "/>
+                    <Run Text="The photoemissive detector is based on the external photoelectric effect, photoelectrons are emitted when the surface of a metal or  semiconductor known as a photocathode is illuminated with light of a sufficient photon energy.  A photomultiplier tube is a vacuum photodiode with built-in high gain ,low noise electron multiplier. A vacuum photodiode consists of a photocathode and an anode in an enclosed vacuum tube. The device utilizes either a reflection mode photocathode which is opaque or a transmission mode photocathode which is semitransparent."/>
+                </Paragraph>
+                <Paragraph>
+                    <Run FontWeight="Bold" Text="Photoconductive detectors: "/>
+                    <Run Text="Due to the phenomenon of photoconductivity, the conductivity of a photoconductor increases with optical illumination due to the photo generation of free carriers.   Basics in semiconductors:  The conductivity of a semiconductor  with hole and electron concentrations is  = electronic charge *( (mobility of electron*electron concentration + mobility of a hole*hole concentration)).    When the semiconductor is illuminated with light of sufficient photon energy, carriers in excess of the equilibrium electron and hole concentrations ( equilibrium is with no optical illumination) get generated.  Hence photoconductivity is the additional conductivity generated by these photo generated excess carriers.  Similar to photo emission, photoconductivity also has a threshold photon energy corresponding to the threshold wavelength. The "/>
+                    <Run FontStyle="Italic" Text="intrinsic photoconductivity "/>
+                    <Run Text=" is caused by the excess electrons and holes generated by the incident of photons. Hence the threshold photon energy is equal to the bandgap energy of the photoconductor.  The "/>
+                    <Run FontStyle="Italic" Text="extrinsic photoconductivity,"/>
+                    <Run Text=" conductivity is predominantly contributed by the majority carriers. Now these free majority carriers are only generated when optically illuminated.  "/>
+                    <Run FontWeight="Bold"/>
+                </Paragraph>
+                <Paragraph>
+                    <Run FontWeight="Bold" Text="Junction photodiodes: "/>
+                    <Run Text="Most commonly used photo detectors in the photonics industry, the photodiode is of intrinsic type in which electron-hole pairs are generated through band to band optical absorption.    Two modes: In a "/>
+                    <Run FontStyle="Italic" Text="photoconductive"/>
+                    <Run Text=" mode, electric energy supplied by the bias voltage source is delivered to the photodiode. In "/>
+                    <Run FontStyle="Italic" Text="photovoltaic mode, "/>
+                    <Run Text="electric energy generated by the optical signal can be extracted from the photodiode to the external circuit.     This forms the concepts of "/>
+                    <Run FontStyle="Italic" Text="solar energy. "/>
+                    <Run Text=" Solar cells are semiconductor junction diodes that operate in a photovoltaic mode for converting solar energy into electricity. "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run FontWeight="Bold" Text="Light emitting diodes (LEDS) and semiconductor lasers: "/>
+                    <Run Text="A semiconductor laser emits coherent laser light with a small divergence, where as the emission of an LED is incoherent and divergent. These devices can be can be directly current  modulated with a very fast response for high speed applications. The optical field in an LED or a semiconductor Laser (similar to an electric or magnetic field) can be either horizontally or vertically propagating, hence it can be either edge emitting or surface emitting.  "/>
+                    <Run FontWeight="Bold" Text="Radiative recombination:  "/>
+                    <Run Text="An electron hole recombination process can be either radiative or non radiative, in a  radiative process the released energy is emitted as electromagnetic radition, in a nonradiative process no radiation is emitted and the released energy is converted to thermal energy.  Only radiative processes are useful for semiconductor lasers and LEDs. "/>
+                    <Run FontStyle="Italic" Text="Radiative efficiency, band to band optical transitions, optical gain, spontaneous emission "/>
+                    <Run Text="are all parameters.  The junction structure of a device determines the carrier and optical field distribution in the vertical direction perpendicular to the junction plane of  a device, the carrier and optical field distributions in the transverse direction parallel to the junction plane are determined by the lateral structure.    The "/>
+                    <Run FontStyle="Italic" Text="power conversion efficiency "/>
+                    <Run Text="of an LED is defined as that of a laser Efficiency = Pout/Pp, where Pout is the optical output power of the LED and Pp is the input power.   For an LED that emits at an optical frequency v, the output photon flux is Pout/hv.   The power conversion efficiency of a typical LED that emits photons at an energy close to it bandgap energy is equal to and slightly less than its external "/>
+                    <Run FontStyle="Italic" Text="quantum efficiency"/>
+                    <Run Text=".  For an LED that emits in the visible spectral region a photometric efficiency or "/>
+                    <Run FontStyle="Italic" Text="luminous efficiency "/>
+                    <Run Text="needs to be determined.     "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run FontWeight="Bold" Text="Fiber Optic Applications: "/>
+                    <Run Text="For LEDs that are  utilized in fiber optic applications including the infrared LEDs used in optical communications, the final efficiency counts includes not only the external quantum efficiency but also the coupling efficiency of the emission into the fiber.   Due to the unique characteristic of the edge emitting LED of being able to emit an output at a narrow angular spread in one direction, it provides a more efficient direct coupling to an optical fiber versus a surface emitting LEDs that allows emission of output in all directions.  LEDs do not couple efficiently into single mode fibers because the incoherent emission of an LED has a large divergence, hence multimode fibers are used fiber optic applications of LEDs.  The radiance of a edge emitting LED is 10 times higher than that of a surface emitting LED.   "/>
+                    <Run FontWeight="Bold" Text="Spectral Characteristics:  "/>
+                    <Run Text="The spectral characteristics of an LED include the emission wavelength, the spectral width and the spectral shape."/>
+                </Paragraph>
+                <Paragraph>
+                    <Run FontWeight="Bold" Text="Modulation characteristics:  "/>
+                    <Run Text="For high speed applications a large modulation bandwidth is needed, under a forward bias the diffusion capacitance is the dominating factor for its frequency response.  The output can be modulated with the input current, this is called the direct current modulation.  "/>
+                    <Run FontWeight="Bold" Text="Semiconductor optical amplifiers:  "/>
+                    <Run Text="Produces an optical gain for the amplification of an optical signal. "/>
+                    <Run FontWeight="Bold" Text="Semiconductor laser diodes : "/>
+                    <Run Text="They differ from LEDs in fundamental principles, structures, characteristics and share the basic structures. "/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+
+    </Grid>
+</Window>
