@@ -61,14 +61,11 @@
     <Compile Include="LaserAmplifiers.xaml.cs">
       <DependentUpon>LaserAmplifiers.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MicrowavePhotonics.xaml.cs">
-      <DependentUpon>MicrowavePhotonics.xaml</DependentUpon>
-    </Compile>
     <Compile Include="OpticalAmplifiers.xaml.cs">
       <DependentUpon>OpticalAmplifiers.xaml</DependentUpon>
     </Compile>
-    <Compile Include="OpticalWaveguides.xaml.cs">
-      <DependentUpon>OpticalWaveguides.xaml</DependentUpon>
+    <Compile Include="OpticalResonator.xaml.cs">
+      <DependentUpon>OpticalResonator.xaml</DependentUpon>
     </Compile>
     <Compile Include="OpticDevices.xaml.cs">
       <DependentUpon>OpticDevices.xaml</DependentUpon>
@@ -99,15 +96,11 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="MicrowavePhotonics.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="OpticalAmplifiers.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="OpticalWaveguides.xaml">
+    <Page Include="OpticalResonator.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -179,6 +172,24 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="PhotonicDevices1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="PhotoDetectors1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="PhotoDetectors2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="LaserResonator1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="LaserResonator2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="LaserAmplifiers.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ElectroOptics2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

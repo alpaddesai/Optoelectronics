@@ -5,8 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Optoelectronics"
         mc:Ignorable="d"
-        Title="OpticDevices" Height="450" Width="800">
-    <Grid>
-        
+        Title="OpticDevices" Height="450" Width="800" MaxWidth="800" MaxHeight="450">
+    <Grid MaxWidth="794" MaxHeight="421">
+        <TabControl HorizontalAlignment="Left" Height="384" Margin="10,0,0,0" VerticalAlignment="Top" Width="749">
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="75*"/>
+                        <ColumnDefinition Width="668*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.ColumnSpan="2" Margin="-3,9,10,10" Source="Slide1.JPG" Stretch="Fill"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="36*"/>
+                        <ColumnDefinition Width="707*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Margin="10,0,24,10" Source="ElectroOptics2.png" Stretch="Fill" Grid.ColumnSpan="2"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
     </Grid>
 </Window>

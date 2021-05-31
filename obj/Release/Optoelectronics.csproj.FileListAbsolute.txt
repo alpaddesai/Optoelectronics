@@ -36,14 +36,12 @@ C:\Users\alpag\source\repos\Optoelectronics\Optoelectronics\obj\Release\Optoelec
 C:\Users\alpag\source\repos\Optoelectronics\Optoelectronics\obj\Release\Optoelectronics.exe
 C:\Users\alpag\source\repos\Optoelectronics\Optoelectronics\obj\Release\Optoelectronics.pdb
 C:\Users\alpag\source\repos\Optoelectronics\Optoelectronics\obj\Release\LaserAmplifiers.g.cs
-C:\Users\alpag\source\repos\Optoelectronics\Optoelectronics\obj\Release\MicrowavePhotonics.g.cs
 C:\Users\alpag\source\repos\Optoelectronics\Optoelectronics\obj\Release\OpticalAmplifiers.g.cs
-C:\Users\alpag\source\repos\Optoelectronics\Optoelectronics\obj\Release\OpticalWaveguides.g.cs
 C:\Users\alpag\source\repos\Optoelectronics\Optoelectronics\obj\Release\OpticDevices.g.cs
 C:\Users\alpag\source\repos\Optoelectronics\Optoelectronics\obj\Release\PhotoDetectors.g.cs
 C:\Users\alpag\source\repos\Optoelectronics\Optoelectronics\obj\Release\LaserAmplifiers.baml
-C:\Users\alpag\source\repos\Optoelectronics\Optoelectronics\obj\Release\MicrowavePhotonics.baml
 C:\Users\alpag\source\repos\Optoelectronics\Optoelectronics\obj\Release\OpticalAmplifiers.baml
-C:\Users\alpag\source\repos\Optoelectronics\Optoelectronics\obj\Release\OpticalWaveguides.baml
 C:\Users\alpag\source\repos\Optoelectronics\Optoelectronics\obj\Release\OpticDevices.baml
 C:\Users\alpag\source\repos\Optoelectronics\Optoelectronics\obj\Release\PhotoDetectors.baml
+C:\Users\alpag\source\repos\Optoelectronics\Optoelectronics\obj\Release\OpticalResonator.g.cs
+C:\Users\alpag\source\repos\Optoelectronics\Optoelectronics\obj\Release\OpticalResonator.baml

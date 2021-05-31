@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace Optoelectronics
 {
     /// <summary>
-    /// Interaction logic for MicrowavePhotonics.xaml
+    /// Interaction logic for OpticalResonator.xaml
     /// </summary>
-    public partial class MicrowavePhotonics : Window
+    public partial class OpticalResonator : Window
     {
-        public MicrowavePhotonics()
+        public OpticalResonator()
         {
             InitializeComponent();
         }

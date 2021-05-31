@@ -5,6 +5,38 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Optoelectronics"
         mc:Ignorable="d"
-        Title="PhotoDetectors" Height="543.577" Width="746.241" MaxWidth="746" MaxHeight="543">
-    <Image Margin="10,10,41,22.6" Source="Slide3.JPG" Stretch="Fill"/>
+        Title="PhotoDetectors" Height="750.405" Width="885.513" MaxWidth="885" MaxHeight="750">
+    <TabControl HorizontalAlignment="Left" Height="717" VerticalAlignment="Top" Width="879">
+        <TabItem Header="Photodetector">
+            <Grid Background="#FFE5E5E5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="79*"/>
+                    <ColumnDefinition Width="794*"/>
+                </Grid.ColumnDefinitions>
+                <TabControl HorizontalAlignment="Left" Height="679" VerticalAlignment="Top" Width="864" Grid.ColumnSpan="2">
+                    <TabItem Header="TabItem">
+                        <Grid Background="#FFE5E5E5">
+                            <Image Margin="0,0,0.4,0.2" Source="PhotoDetectors1.JPG" Stretch="Fill"/>
+                        </Grid>
+                    </TabItem>
+                    <TabItem Header="TabItem">
+                        <Grid Background="#FFE5E5E5">
+                            <Image Margin="0,0,0.4,0.2" Source="PhotoDetectors2.JPG" Stretch="Fill"/>
+                        </Grid>
+                    </TabItem>
+                </TabControl>
+            </Grid>
+        </TabItem>
+        <TabItem Header="Photodiode">
+            <Grid Background="#FFE5E5E5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="32*"/>
+                    <ColumnDefinition Width="44*"/>
+                    <ColumnDefinition Width="121*"/>
+                    <ColumnDefinition Width="677*"/>
+                </Grid.ColumnDefinitions>
+                <Image Margin="0,0,-4.4,-0.2" Source="Slide3.JPG" Stretch="Fill" Grid.ColumnSpan="4"/>
+            </Grid>
+        </TabItem>
+    </TabControl>
 </Window>

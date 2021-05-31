@@ -52,13 +52,6 @@ namespace Optoelectronics
 
         }
 
-        private void Optical_Click(object sender, RoutedEventArgs e)
-        {
-           // MessageBox.Show("Optical waveguides are the basic elements for the transmission of light over various distances from tens or hundred of mm integrated photonics to hundreds or thousands of km in fiber optic transmissions", "Waveguide");
-            OpticalWaveguides OpticalWaveguidesObject = new OpticalWaveguides();
-            OpticalWaveguidesObject.Show();
-        }
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             OpticalAmplifiers OpticalAmplifiersObject = new OpticalAmplifiers();
@@ -71,11 +64,6 @@ namespace Optoelectronics
             LaserAmplifiersObject.Show();
         }
 
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-            MicrowavePhotonics MicrowavePhotonicsObject = new MicrowavePhotonics();
-            MicrowavePhotonicsObject.Show();
-        }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
@@ -87,6 +75,12 @@ namespace Optoelectronics
         {
             PhotoDetectors PhotoDetectorsObject = new PhotoDetectors();
             PhotoDetectorsObject.Show();
+        }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            OpticalResonator OpticalResonatorObject = new OpticalResonator();
+            OpticalResonatorObject.Show();
         }
     }
 }
