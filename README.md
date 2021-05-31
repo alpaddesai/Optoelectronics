@@ -10,3 +10,5 @@ by Alpa D Desai.
 
 ![image](FiberOpticCables.png)
 
+![image](SemiconductorLaser1.png)
+
