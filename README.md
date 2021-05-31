@@ -14,3 +14,6 @@ by Alpa D Desai.
 
 ![image](LaserAmplifier2.png)
 
+![image](LaserAmplifier3.png)
+
+
