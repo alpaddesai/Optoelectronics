@@ -16,4 +16,20 @@ by Alpa D Desai.
 
 ![image](LaserAmplifier3.png)
 
+![image](OpticalResonator1.png)
+
+![image](OpticalResonator2.png)
+
+![image](OpticDevices1.png)
+
+![image](OpticDevices2.png)
+
+![image](PhotoDiode1.png)
+
+![image](PhotoDetector1.png)
+
+![image](PhotoDetector2.png)
+
+
+
 
