@@ -12,3 +12,5 @@ by Alpa D Desai.
 
 ![image](SemiconductorLaser1.png)
 
+![image](LaserAmplifier2.png)
+
