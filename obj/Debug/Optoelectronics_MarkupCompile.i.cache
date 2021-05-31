@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\ADG\source\repos\Optoelectronics\Optoelectronics\obj\Debug\
+C:\Users\alpag\source\repos\Optoelectronics\Optoelectronics\obj\Debug\
 Optoelectronics
 none
 false
 DEBUG;TRACE
-C:\Users\ADG\source\repos\Optoelectronics\Optoelectronics\App.xaml
-3511287625
+C:\Users\alpag\source\repos\Optoelectronics\Optoelectronics\App.xaml
+9-1006885590
 
-8-1783399090
+14-2001180362
 13-1505183044
-FiberOpticCables.xaml;MainWindow.xaml;SemiConductorOptoelectronics.xaml;
+FiberOpticCables.xaml;LaserAmplifiers.xaml;MainWindow.xaml;MicrowavePhotonics.xaml;OpticalAmplifiers.xaml;OpticalWaveguides.xaml;OpticDevices.xaml;PhotoDetectors.xaml;SemiConductorOptoelectronics.xaml;
 
 True
 

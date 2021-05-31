@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Optoelectronics"
         mc:Ignorable="d"
-        Title="Optoelectronics" Height="461.222" Width="824.688">
+        Title="Optoelectronics" Height="461.222" Width="824.688" MaxWidth="825" MaxHeight="461">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="102*"/>
@@ -13,19 +13,17 @@
             <RowDefinition Height="269*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="236*"/>
-            <ColumnDefinition Width="57*"/>
-            <ColumnDefinition Width="499*"/>
+            <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Label Content="Reference: Photonic Devices  - Jia Ming Liu" HorizontalAlignment="Left" Margin="266,245,0,-2" VerticalAlignment="Top" RenderTransformOrigin="-1.422,0.499" Width="241" Grid.Row="2" Grid.Column="2"/>
-        <Button x:Name="SemiOpto" Content="Semiconductor Optoelectronics" HorizontalAlignment="Left" Margin="199,33.645,0,0" VerticalAlignment="Top" Width="202" Click="SemiOpto_Click" Height="26" Grid.Column="2" Grid.RowSpan="2" Grid.Row="1"/>
-        <Image Margin="72,-2,2,30" Source="Image2.png" Stretch="Fill" Grid.Column="2" Grid.RowSpan="2"/>
-        <Image Margin="79,10,3,141" Source="Image3.png" Stretch="Fill" Grid.Column="2" Grid.Row="2"/>
-        <Button x:Name="Fiber_Optic" Content="FiberOpticCables" Grid.Column="2" HorizontalAlignment="Left" Margin="177,229,0,0" Grid.Row="2" VerticalAlignment="Top" Width="201" Click="Fiber_Optic_Click"/>
-        <Label Content="Fibre" Grid.Column="2" HorizontalAlignment="Left" Margin="285,24,0,0" Grid.Row="2" VerticalAlignment="Top"/>
-        <Image Margin="127,117,3,46" Source="Image4.png" Stretch="Fill" Grid.Column="2" Grid.Row="2"/>
-        <Image Grid.ColumnSpan="3" Margin="6,137,370,4" Source="Image5.png" Stretch="Fill" Grid.Row="2"/>
-        <RichTextBox HorizontalAlignment="Left" Height="246" Grid.RowSpan="3" VerticalAlignment="Top" Width="364" Grid.ColumnSpan="3" TextChanged="RichTextBox_TextChanged_2">
+        <Label Content="Reference: Photonic Devices  - Jia Ming Liu" HorizontalAlignment="Left" Margin="559,233.4,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.422,0.499" Width="164" Grid.Row="2" FontSize="8"/>
+        <Button x:Name="SemiOpto" Content="Semiconductor Optoelectronics" HorizontalAlignment="Left" Margin="398,34.6,0,0" VerticalAlignment="Top" Width="170" Click="SemiOpto_Click" Height="20" Grid.Row="1" RenderTransformOrigin="0.462,0.57"/>
+        <Image Margin="375,-2,2.4,29.6" Source="Image2.png" Stretch="Fill" Grid.RowSpan="2"/>
+        <Image Margin="382,10.4,2.4,141.2" Source="Image3.png" Stretch="Fill" Grid.Row="2"/>
+        <Button x:Name="Fiber_Optic" Content="Fiber Optic Cables" HorizontalAlignment="Left" Margin="466,214.4,0,0" Grid.Row="2" VerticalAlignment="Top" Width="114" Click="Fiber_Optic_Click" RenderTransformOrigin="-0.109,0.76"/>
+        <Label Content="Fibre" HorizontalAlignment="Left" Margin="588,24.4,0,0" Grid.Row="2" VerticalAlignment="Top"/>
+        <Image Margin="430,108.4,2.4,55.2" Source="Image4.png" Stretch="Fill" Grid.Row="2"/>
+        <Image Margin="6,137.4,370.4,4.2" Source="Image5.png" Stretch="Fill" Grid.Row="2"/>
+        <RichTextBox HorizontalAlignment="Left" Height="246" Grid.RowSpan="3" VerticalAlignment="Top" Width="364" TextChanged="RichTextBox_TextChanged_2">
             <FlowDocument>
                 <Paragraph>
                     <Run FontWeight="Bold" Text="Laser"/>
@@ -43,7 +41,12 @@
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
-        <Button x:Name="Optical" Content="Optical Waveguides" HorizontalAlignment="Left" Margin="19,98,0,0" Grid.Row="2" VerticalAlignment="Top" Width="112" Height="24" Click="Optical_Click"/>
+        <Button x:Name="Optical" Content="Optical Waveguides" HorizontalAlignment="Left" Margin="19,98.4,0,0" Grid.Row="2" VerticalAlignment="Top" Width="112" Height="24" Click="Optical_Click"/>
+        <Button Content="Photo Detectors" HorizontalAlignment="Left" Margin="703,214.4,0,0" Grid.Row="2" VerticalAlignment="Top" Width="91" RenderTransformOrigin="0.47,0.177" Click="Button_Click_4"/>
+        <Button Content="Optical amplifiers" HorizontalAlignment="Left" Margin="588,34.6,0,5.6" Grid.Row="1" Width="103" Click="Button_Click"/>
+        <Button Content="Lasers amplifiers" HorizontalAlignment="Left" Margin="702,34.6,0,5.6" Grid.Row="1" Width="92" Click="Button_Click_1"/>
+        <Button Content="Optic Devices" HorizontalAlignment="Left" Margin="600,214.4,0,0" Grid.Row="2" VerticalAlignment="Top" Width="91" RenderTransformOrigin="0.47,0.177" Click="Button_Click_3"/>
+        <Button Content="Microwave Photonics" HorizontalAlignment="Left" Margin="152,98.4,0,0" Grid.Row="2" VerticalAlignment="Top" Width="119" Click="Button_Click_2"/>
 
     </Grid>
 </Window>

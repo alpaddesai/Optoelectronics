@@ -1,0 +1,13 @@
+﻿<Window x:Class="Optoelectronics.OpticalAmplifiers"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Optoelectronics"
+        mc:Ignorable="d"
+        Title="OpticalAmplifiers" Height="635.127" Width="1017.88" MaxWidth="1018" MaxHeight="635">
+    <Grid Margin="0,0,31.2,19.6">
+        <Image Margin="10,0,-30,0" Source="PhotonicDevices2.JPG" Stretch="Fill"/>
+
+    </Grid>
+</Window>

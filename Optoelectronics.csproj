@@ -58,10 +58,32 @@
     <Compile Include="FiberOpticCables.xaml.cs">
       <DependentUpon>FiberOpticCables.xaml</DependentUpon>
     </Compile>
+    <Compile Include="LaserAmplifiers.xaml.cs">
+      <DependentUpon>LaserAmplifiers.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MicrowavePhotonics.xaml.cs">
+      <DependentUpon>MicrowavePhotonics.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OpticalAmplifiers.xaml.cs">
+      <DependentUpon>OpticalAmplifiers.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OpticalWaveguides.xaml.cs">
+      <DependentUpon>OpticalWaveguides.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OpticDevices.xaml.cs">
+      <DependentUpon>OpticDevices.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoDetectors.xaml.cs">
+      <DependentUpon>PhotoDetectors.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SemiConductorOptoelectronics.xaml.cs">
       <DependentUpon>SemiConductorOptoelectronics.xaml</DependentUpon>
     </Compile>
     <Page Include="FiberOpticCables.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LaserAmplifiers.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -77,6 +99,26 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="MicrowavePhotonics.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OpticalAmplifiers.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OpticalWaveguides.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OpticDevices.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PhotoDetectors.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="SemiConductorOptoelectronics.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -122,6 +164,21 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Slide1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Slide2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Slide3.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="PhotonicDevices2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="PhotonicDevices1.JPG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

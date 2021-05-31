@@ -1,0 +1,10 @@
+﻿<Window x:Class="Optoelectronics.PhotoDetectors"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Optoelectronics"
+        mc:Ignorable="d"
+        Title="PhotoDetectors" Height="543.577" Width="746.241" MaxWidth="746" MaxHeight="543">
+    <Image Margin="10,10,41,22.6" Source="Slide3.JPG" Stretch="Fill"/>
+</Window>
