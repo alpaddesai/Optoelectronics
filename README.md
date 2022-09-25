@@ -43,6 +43,8 @@ by Alpa D Desai.
 ## Photo Detectors
 ![image](PhotoDetector2.png)
 
+![image](USCopyrightCertificate.png)
+
 Additional details https://github.com/alpaddesai/MSEE_EngineeringProjectManagement
 
 
