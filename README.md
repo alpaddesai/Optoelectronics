@@ -47,6 +47,6 @@ by Alpa D Desai.
 
 ![image](Ethics.jpg)
 
-Additional details https://github.com/alpaddesai/MSEE_EngineeringProjectManagement
+Additional details https://github.com/alpaddesai/VLSI_Design
 
 
